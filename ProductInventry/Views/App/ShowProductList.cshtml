@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ProductInventry.Data.Entities.AddProduct>
+@{
+
+}
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        table#t01 {
+            width: 100%;
+            background-color: #f1f1c1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>@Html.DisplayNameFor(model=> model.Name)</th>
+            <th>@Html.DisplayNameFor(model =>model.Price)</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+          <tr>
+              <td>
+                  @Html.DisplayFor(modelItem => item.Name)
+              </td>
+              <td>
+                  @Html.DisplayFor(modelItem=>item.Price)
+              </td>
+            
+          </tr>
+
+        }
+        
+    </table>
+</body>
+
+
+<input type="button" value="Home page" onclick="window.location.href='/app/Navigate'" />
+
+
+
+
+

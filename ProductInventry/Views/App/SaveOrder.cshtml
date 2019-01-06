@@ -1,0 +1,61 @@
+﻿@using ProductInventry.ViewModels
+@model ProductInventry.ViewModels.SaveOrderViewModel
+
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        table#t01 {
+            width: 100%;
+            background-color: #f1f1c1;
+        }
+    </style>
+</head>
+<h2> Your Bill</h2>
+<h2>Order:@ViewBag.id</h2>
+    <body>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            @for (int i = 0; i < Model.SaveOrder.Count(); i++)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Itemmodel => Itemmodel.SaveOrder[i].Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(itemmodel => itemmodel.SaveOrder[i].Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(itemmodel => itemmodel.SaveQuantity[i].Quantity)
+                </td>
+            </tr>
+            }
+        </table>
+
+        <h2>Totoal Price :@ViewBag.totalprice</h2>
+    </body>
+
+
+    <input type="button" value="Home page" onclick="window.location.href='/app/Navigate'" />
+
+
+
+
+
+
+
+
+
+

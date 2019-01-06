@@ -1,0 +1,11 @@
+C:\product_develop\ProductInventry\ProductInventry\bin\Debug\netcoreapp2.0\ProductInventry.deps.json
+C:\product_develop\ProductInventry\ProductInventry\bin\Debug\netcoreapp2.0\ProductInventry.runtimeconfig.json
+C:\product_develop\ProductInventry\ProductInventry\bin\Debug\netcoreapp2.0\ProductInventry.runtimeconfig.dev.json
+C:\product_develop\ProductInventry\ProductInventry\bin\Debug\netcoreapp2.0\ProductInventry.dll
+C:\product_develop\ProductInventry\ProductInventry\bin\Debug\netcoreapp2.0\ProductInventry.pdb
+C:\product_develop\ProductInventry\ProductInventry\obj\Debug\netcoreapp2.0\ProductInventry.csproj.CoreCompileInputs.cache
+C:\product_develop\ProductInventry\ProductInventry\obj\Debug\netcoreapp2.0\ProductInventry.AssemblyInfoInputs.cache
+C:\product_develop\ProductInventry\ProductInventry\obj\Debug\netcoreapp2.0\ProductInventry.AssemblyInfo.cs
+C:\product_develop\ProductInventry\ProductInventry\obj\Debug\netcoreapp2.0\ProductInventry.dll
+C:\product_develop\ProductInventry\ProductInventry\obj\Debug\netcoreapp2.0\ProductInventry.pdb
+C:\product_develop\ProductInventry\ProductInventry\obj\Debug\netcoreapp2.0\ProductInventry.csprojResolveAssemblyReference.cache
